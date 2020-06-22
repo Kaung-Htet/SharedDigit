@@ -1,5 +1,6 @@
 public class SharedDigit {
     public static boolean hasSharedDigit (int num1, int num2){
+        //Each number should be within the range of 10 (inclusive) - 99 (inclusive).
         if (num1 < 10 || num1 > 99 || num2 < 10 || num2 > 99){
             return false;
         }
